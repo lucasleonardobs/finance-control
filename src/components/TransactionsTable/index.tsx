@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Container } from "./style";
+import { Container } from "./styles";
 
 
 export function TransactionTable() {
