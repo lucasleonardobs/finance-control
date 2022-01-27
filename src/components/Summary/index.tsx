@@ -4,8 +4,13 @@ import totalImg from "../../assets/total.svg";
 
 import { Container } from "./styles";
 
+import { useContext } from "react"; 
+import { TransactionsContext } from "../../TransactionsContext";
+
 
 export function Summary() {
+    const transactions = useContext(TransactionsContext);
+
     return (
         <Container>
             <div>
